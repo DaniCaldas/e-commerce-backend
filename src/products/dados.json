@@ -1,0 +1,62 @@
+[
+    {
+        "name":"Air Force",
+        "value":"800",
+        "image": "https://imgnike-a.akamaihd.net/768x768/01113751.jpg"
+    },
+    {
+        "name":"Nike Dunk",
+        "value":"500",
+        "image":"https://imgnike-a.akamaihd.net/768x768/0243177T.jpg"
+    },
+    {
+        "name":"Air Max",
+        "value":"700",
+        "image":"https://imgnike-a.akamaihd.net/768x768/007581ID.jpg"
+    },
+    {
+        "name":"Air Force High",
+        "value":"900",
+        "image":"https://imgnike-a.akamaihd.net/768x768/02360051.jpg"
+    },
+    {
+        "name":"Nike Dunk Retro",
+        "value":"900",
+        "image":"https://imgnike-a.akamaihd.net/768x768/02622515.jpg"
+    },
+    {
+        "name":"Nike Dunk Retro PRM",
+        "value":"900",
+        "image":"https://imgnike-a.akamaihd.net/768x768/02359815.jpg"
+    },
+    {
+        "name":"SuperStar",
+        "value":"900",
+        "image":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7ed0855435194229a525aad6009a0497_9366/Tenis_Superstar_Branco_EG4958_01_standard.jpg"
+    },
+    {
+        "name":"Running Shoes",
+        "value":"500",
+        "image":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4b593057a18c47d2844dad9000ecd808_9366/Tenis_Ultraboost_22_Preto_GX3062_01_standard.jpg"
+    },
+    {
+        "name":"Forum low",
+        "value":"300",
+        "image":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/434e32f2d7a2471c8d50ae9e0106b6ad_9366/Tenis_Forum_Low_Branco_HQ1493_01_standard.jpg"
+    },
+    {
+        "name":"Runfalcon 3",
+        "value":"270",
+        "image":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/03bf0b1dd0ca437e9b15af2a00aaa6c5_9366/Tenis_Runfalcon_3_Azul_HQ1471_01_standard.jpg"
+    },
+    {
+        "name":"Forum Exhibit Low",
+        "value":"300",
+        "image":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/319b51c57f234f7eb763af32015b1232_9366/Tenis_Forum_Exhibit_Low_Branco_HQ7110_01_standard.jpg"
+    },
+    {
+        "name":"Ultraboost",
+        "value":"700",
+        "image":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b6b6fea7827b42f7bddeadab00ff7299_9366/Tenis_Ultraboost_22_Azul_GX5461_01_standard.jpg"
+    }
+]
