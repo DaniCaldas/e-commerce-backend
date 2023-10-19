@@ -3,9 +3,9 @@ import { Request, Response } from "express";
 
 const prisma = new PrismaClient()
 
-export const getItems = async (req: Request, res: Response) => {
+export const getItems = async (req:Request, res: Response) => {
     const items = await prisma.carrinho.findMany();
-    return res.json(items);
+    return res.status(200).json(items);
 }
 
 export const postItem = async (req: Request, res: Response) => {
@@ -17,7 +17,7 @@ export const postItem = async (req: Request, res: Response) => {
             valor
         }
     })
-    return res.json(items) 
+    return res.status(201).json(items); 
 }
 
 export const deleteItem = async (req: Request, res: Response) => {
@@ -28,5 +28,6 @@ export const deleteItem = async (req: Request, res: Response) => {
             id
         }
     })
-    return res.json(item)
+    
+    return res.status(200).json({msg:"item deleted", item});
 }
