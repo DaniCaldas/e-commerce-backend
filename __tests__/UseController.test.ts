@@ -5,7 +5,7 @@ describe("Test Controllers", () => {
         it("Should Get the products", async () => {
             const response = await request(app).get('/produtos');
             expect(response.statusCode).toEqual(200);   
-        })
+        });
 
         it("Should puting a buy in cart", async () => {
             const response = await request(app).post('/carrinho').send({
@@ -28,5 +28,14 @@ describe("Test Controllers", () => {
             })
             expect(response.statusCode).toEqual(200 && 404);
             expect(response).toMatchObject(/{msg:"item deleted"}i/);
+        })
+
+        it("Should Delete all products to cart", async () => {
+            const response = await request(app).delete('/carrinho').send({
+                msg: "all products deleted"
+            })
+
+            expect(response.body).toMatchObject(/msg: "all products deleted"i/);
+            expect(response.statusCode).toEqual(404);
         })
 })
